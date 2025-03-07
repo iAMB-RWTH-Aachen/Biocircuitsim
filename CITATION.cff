@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: BioCircuitSim
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: 'samira '
+    name-particle: 'van den '
+    family-names: Bogaard
+    email: samira.vandenbogaard@rwth-aachen.de
+    affiliation: >-
+      institute of Applied Microbiology, RWTH Aachen
+      University
+    orcid: 'https://orcid.org/0000-0003-0746-4863'
+  - affiliation: >-
+      institute of Applied Microbiology, RWTH Aachen
+      University
+    email: ulf.liebal@rwth-aachen.de
+    given-names: Ulf
+    family-names: Liebal
+repository-code: 'https://github.com/iAMB-RWTH-Aachen/Biocircuitsim'
+url: 'https://github.com/iAMB-RWTH-Aachen/Biocircuitsim'
+abstract: >-
+  Code and tutorial for an introduction to using software of
+  git and boolean logic in genetic circuit design
+keywords:
+  - genetic circuits
+  - git tutorial
+license: MIT
