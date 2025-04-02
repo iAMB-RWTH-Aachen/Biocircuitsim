@@ -13,9 +13,15 @@ keep track of changes in a document. In the beginning it is difficult to grasp a
 For this tutorial, we will use the following terms:
  - **repository** (short:repo): a project folder system on a git server. Actually, this is a repository
  - **remote**: The version of a repository on the git server
- - **fork**: a copy of the repository of user1 by user2
+ - **local**: The version of a repository which is stored inside the user's local PC
+ - **fork**: a copy of an online (remote) repository from user 1 by user 2
+   - Creates a copy on GitHub
+   - Helpful when you want to contribute to someone's project: you fork it to your own GitHub account, make changes and propose the changes to the owner of the original project
  - **clone**: a copy of the repository of user2 on the computer of user2, under the control of git and connected to the remote
+   - Creates a copy on user's local machine
+   - Helpful if you want to work with a project on your local computer.
 
+The best practise if you want to contribute to an exitising project is: fork the project to your own Github, and clone the forked project on your GitHub to your local machine
 If you are interested in how git works, please check out 
 [this](https://carpentries-incubator.github.io/fair-research-software/04-version-control.html) webpage.
 
@@ -77,14 +83,16 @@ git remote -v
 
 
 #### Step 4: Open the project in your IDE
-- If using **VS Code**, open the repository by running:
-  ```sh
-  code .
-  ```
-- If using **PyCharm**, open it manually or use:
-  ```sh
-  open -a "PyCharm" .
-  ```
+- If you are a graphical user interface person: open the IDE by typing the name in the Windows home search function
+- If you are using a terminal
+  - **VS Code**:
+    ```sh
+    code .
+    ```
+  - **PyCharm**:
+    ```sh
+    open -a "PyCharm" .
+    ```
   
 ## 2. Understand and use boolean logic in genetic circuit design
 Now you are ready for start working with Python. Before you start, you do need to install all requirements.
@@ -118,7 +126,7 @@ can be found on [this webpage from the software incubators](https://carpentries-
 
 - **Windows:**
   ```sh
-  source venv\Scripts\activate
+  venv\Scripts\activate
   ```
 - **Mac/Linux:**
   ```sh
@@ -164,6 +172,8 @@ Please navigate to the `BioCircuitSim.ipynb` notebook.
 ```sh
 jupyter notebook
 ```
+The jupyter notebook will open, but still does not know about the venv. You connect the venv to the notebook by selecting
+the kernel related to your venv (look for a button called 'kernel').
 
 ## Licensing and citation
 This repository is made for teaching at the RWTH Aachen University. It is open for reuse by other teaching facilities, 
