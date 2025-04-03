@@ -141,7 +141,7 @@ Once activated, you can install packages using `pip`. Most software projects hav
 where all requirements are listed for your convenience.
 
 ```sh
-pip install requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 #### Deactivating the Virtual Environment
@@ -165,12 +165,12 @@ Using virtual environments ensures that dependencies are project-specific and pr
 
 
 ### ii. Launching the jupyter notebook
-If you have virtual studio code installed, you can directly open jupyter notebooks. Otherwise you need to open the notebook
+If you have Virtual Studio Code installed, you can directly open jupyter notebooks. Otherwise you need to open the notebook
 in the browser.This command will open the jupyter notebook landing page in your browser. 
 Please navigate to the `BioCircuitSim.ipynb` notebook.
 
 ```sh
-jupyter notebook
+python3 -m pip install -r requirements.txt
 ```
 The jupyter notebook will open, but still does not know about the venv. You connect the venv to the notebook by selecting
 the kernel related to your venv (look for a button called 'kernel').
