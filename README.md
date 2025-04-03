@@ -170,10 +170,14 @@ in the browser.This command will open the jupyter notebook landing page in your 
 Please navigate to the `BioCircuitSim.ipynb` notebook.
 
 ```sh
-python3 -m pip install -r requirements.txt
+jupyter notebook
 ```
 The jupyter notebook will open, but still does not know about the venv. You connect the venv to the notebook by selecting
-the kernel related to your venv (look for a button called 'kernel').
+the kernel related to your venv (look for a button called 'kernel'). Can't you find the kernel you are looking for? You can create one manually from your venv using:
+
+```shell
+ipython kernel install --user --name=my_venv_name
+```
 
 ## Licensing and citation
 This repository is made for teaching at the RWTH Aachen University. It is open for reuse by other teaching facilities, 
