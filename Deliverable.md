@@ -9,11 +9,11 @@ In recent years synthetic‑biology tools have made it possible to turn harmless
 The idea is simple: give the bacterium a genetic circuit, like an electronic circuit, i.e. a set of DNA parts that sense a signal, process it with logical rules (AND, OR, NOT …), and then turn on a therapeutic gene only when the right conditions are met.
 Many bacteria communicate with one another by releasing tiny chemical “talkers” called quorum‑sensing (QS) molecules. When a population becomes dense enough, the concentration of the molecule rises and activates a specific regulator protein inside the cells.
 Two potential intestinal microorganisms who can become pathogens are *Pseudomonas aeruginosa* and *Yersinia enterocolitica*.
-Both use QS molecules: *Pseudomonas aeruginosa* uses the molecule N-3-Oxododecanoyl-homoserine lactone (3OxoC12-AHL, C12) to trigger the activator LasR, ,
-*Yersinia enterocolitica* uses the molecule Homoserine Lactone (C6-AHL, C6), that is sensed by the repressor EsaR.
+Both use QS molecules: *Pseudomonas aeruginosa* uses the molecule N-3-Oxododecanoyl-homoserine lactone (3OxoC12-AHL, C12) to trigger the activator LasR,
+*Yersinia enterocolitica* uses the molecule Homoserine Lactone (C6-AHL, C6), that is sensed by the repressor EsaR (Figure 1).
 
 ![image1](Figures/deliverable_system.png)
-**Figure 1** Transcriptional regulation of LasR and EsaR. Figure obtained from Li et al. (2025)
+ **Figure 1** Transcriptional regulation of LasR and EsaR. Figure obtained from Li et al. (2025)
 
 ## **Objective**
 Your task is to design a genetic circuit that enables EcN to respond produce anti-microbial agents when C12 and C6 are present.
